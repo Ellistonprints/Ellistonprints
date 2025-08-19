@@ -1,0 +1,79 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book a Shoot — Elliston Prints</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  
+<nav class="nav">
+  <div class="brand"><span class="logo"></span> Elliston Prints</div>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="galleries.html">Galleries</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About</a>
+    <a class="btn primary" href="contact.html">Book a Shoot</a>
+  </div>
+</nav>
+
+  <div class="container">
+    <h1>Book a Shoot</h1>
+    <p class="small">This form uses a simple <code>mailto:</code> action so it works anywhere. You can switch it to Netlify or Formspree later.</p>
+    <form method="post" action="mailto:ellistonprints@example.com" enctype="text/plain">
+      <div class="form-row">
+        <div>
+          <label>Name</label>
+          <input name="Name" required>
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" name="Email" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label>Service</label>
+          <input name="Service" placeholder="Wedding / Senior / Sports / Promo" required>
+        </div>
+        <div>
+          <label>Preferred Date</label>
+          <input name="Date" type="date">
+        </div>
+      </div>
+      <label>Message</label>
+      <textarea name="Message" rows="5" placeholder="Tell me about your shoot"></textarea>
+      <div style="margin-top:12px">
+        <button class="btn primary" type="submit">Send Booking Request</button>
+      </div>
+    </form>
+    <p class="small" style="margin-top:14px">Or email directly: <a href="mailto:ellistonprints@example.com">ellistonprints@example.com</a></p>
+  </div>
+  
+<footer class="footer">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <div class="brand"><span class="logo"></span> Elliston Prints</div>
+        <p class="small">Weddings • Senior Portraits • Sports • Promos</p>
+      </div>
+      <div>
+        <div class="small">Email</div>
+        <a href="mailto:ellistonprints@example.com">ellistonprints@example.com</a>
+      </div>
+      <div>
+        <div class="small">Social</div>
+        <a href="#">Instagram</a><br>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+    <p class="small" style="margin-top:12px">© <span id="year"></span> Elliston Prints. All rights reserved.</p>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</footer>
+
+</body>
+</html>

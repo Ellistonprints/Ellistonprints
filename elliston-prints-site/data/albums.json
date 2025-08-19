@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "weddings-lakeview",
+    "title": "Lakeview Wedding",
+    "category": "Weddings",
+    "cover": "assets/photos/weddings-lakeview/cover.jpg",
+    "images": [
+      "assets/photos/weddings-lakeview/1.jpg",
+      "assets/photos/weddings-lakeview/2.jpg",
+      "assets/photos/weddings-lakeview/3.jpg",
+      "assets/photos/weddings-lakeview/4.jpg",
+      "assets/photos/weddings-lakeview/5.jpg",
+      "assets/photos/weddings-lakeview/6.jpg"
+    ],
+    "date": "2025-01-01",
+    "download": false,
+    "price": 0
+  },
+  {
+    "slug": "seniors-jordan",
+    "title": "Jordan's Senior Session",
+    "category": "Senior Portraits",
+    "cover": "assets/photos/seniors-jordan/cover.jpg",
+    "images": [
+      "assets/photos/seniors-jordan/1.jpg",
+      "assets/photos/seniors-jordan/2.jpg",
+      "assets/photos/seniors-jordan/3.jpg",
+      "assets/photos/seniors-jordan/4.jpg",
+      "assets/photos/seniors-jordan/5.jpg",
+      "assets/photos/seniors-jordan/6.jpg"
+    ],
+    "date": "2025-01-01",
+    "download": false,
+    "price": 0
+  },
+  {
+    "slug": "sports-rivalry",
+    "title": "Rivalry Game Highlights",
+    "category": "Sports Games",
+    "cover": "assets/photos/sports-rivalry/cover.jpg",
+    "images": [
+      "assets/photos/sports-rivalry/1.jpg",
+      "assets/photos/sports-rivalry/2.jpg",
+      "assets/photos/sports-rivalry/3.jpg",
+      "assets/photos/sports-rivalry/4.jpg",
+      "assets/photos/sports-rivalry/5.jpg",
+      "assets/photos/sports-rivalry/6.jpg"
+    ],
+    "date": "2025-01-01",
+    "download": false,
+    "price": 0
+  },
+  {
+    "slug": "promos-night",
+    "title": "Night Promo Series",
+    "category": "Sports Promos",
+    "cover": "assets/photos/promos-night/cover.jpg",
+    "images": [
+      "assets/photos/promos-night/1.jpg",
+      "assets/photos/promos-night/2.jpg",
+      "assets/photos/promos-night/3.jpg",
+      "assets/photos/promos-night/4.jpg",
+      "assets/photos/promos-night/5.jpg",
+      "assets/photos/promos-night/6.jpg"
+    ],
+    "date": "2025-01-01",
+    "download": false,
+    "price": 0
+  }
+]
